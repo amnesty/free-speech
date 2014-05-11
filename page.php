@@ -113,7 +113,11 @@ get_header(); ?>
 
 			</div>
 			<div class="large-8 columns">
-				<?php related_posts(); ?>
+				<?php
+				    if function_exists( 'related_posts' ) {
+					related_posts();
+				    }
+				?>
 			</div>
 		</div>
 
