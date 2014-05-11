@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Free Spech\n"
-"POT-Creation-Date: 2014-05-11 22:26+0100\n"
-"PO-Revision-Date: 2014-05-11 22:26+0100\n"
+"POT-Creation-Date: 2014-05-11 22:35+0100\n"
+"PO-Revision-Date: 2014-05-11 22:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: Amnesty International Spain <postm@es.amnesty.org>\n"
 "Language: es_ES\n"
@@ -20,22 +20,27 @@ msgstr ""
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgstr "Un comentario en &ldquo;%2$s&rdquo;"
 
-#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:37
-#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:57
-msgid "Comment navigation"
-msgstr "Ver comentarios"
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:31
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "%1$s comentarios en &ldquo;%2$s&rdquo;"
 
 #: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:38
 #: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:58
-msgid "&larr; Older Comments"
-msgstr "&larr; Comentarios anteriores"
+msgid "Comment navigation"
+msgstr "Ver comentarios"
 
 #: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:39
 #: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:59
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:40
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:60
 msgid "Newer Comments &rarr;"
 msgstr "Nuevos comentarios &rarr;"
 
-#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:69
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:70
 msgid "Comments are closed."
 msgstr "Los comentarios han sido cerrados."
 
@@ -202,6 +207,3 @@ msgid ""
 "<span class=\"posted-on\">%1$s</span><span class=\"byline\"> by %2$s</span>"
 msgstr ""
 "<span class=\"posted-on\">%1$s</span><span class=\"byline\"> por %2$s</span>"
-
-#~ msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
-#~ msgstr "%1$s comentarios en &ldquo;%2$s&rdquo;"
