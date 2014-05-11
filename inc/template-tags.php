@@ -101,7 +101,7 @@ function amnistia_comment( $comment, $args, $depth ) {
 				</div><!-- .comment-metadata -->
 
 				<?php if ( '0' == $comment->comment_approved ) : ?>
-				<p class="comment-awaiting-moderation"><?php _e( 'Tu comentario está esperando moderación.', 'amnistia' ); ?></p>
+				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is waiting for approval.', 'amnistia' ); ?></p>
 				<?php endif; ?>
 			</footer><!-- .comment-meta -->
 
