@@ -56,7 +56,7 @@
 	if ( get_query_var('paged') ) { $paged = get_query_var('paged'); }
 	elseif ( get_query_var('page') ) { $paged = get_query_var('page'); }
 	else { $paged = 1; }
-	$args = array('posts_per_page' => 3, 'paged' => $paged, 'post_type' => array('post'), 'cat' => 4);
+	$args = array('posts_per_page' => 3, 'paged' => $paged, 'post_type' => array('post'));
 	query_posts($args);
 	if ( have_posts() ) : while (have_posts()) : the_post();
 	?>
