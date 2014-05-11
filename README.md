@@ -27,7 +27,7 @@ Free-Speech works better if you use it with a few free wordpress plugins:
 License
 -------
 
-Free-Theme is a WordPress theme designed for and by Amnesty International Spain for it's schools network's blog.
+Free-Speech is a WordPress theme designed for and by Amnesty International Spain for it's schools network's blog.
 Copyright (C) 2013 Amnesty International (originally developed by Pepe Pro http://www.pepe.pro).
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
