@@ -42,7 +42,7 @@ get_header(); ?>
 								$categories_list = get_the_category_list( ' ' );
 								?>
 								<div class="meta_cat">
-								<?php printf( __( '%1$s', 'amnistia' ), $categories_list ); ?>
+								<?php printf( '%1$s', $categories_list ); ?>
 								</div>
 							</div>
 
@@ -92,7 +92,7 @@ get_header(); ?>
 							$categories_list = get_the_category_list( ' ' );
 							?>
 							<div class="meta_cat">
-								<?php printf( __( '%1$s', 'amnistia' ), $categories_list ); ?>
+								<?php printf( '%1$s', $categories_list ); ?>
 							</div>
 						</div>
 
@@ -166,7 +166,7 @@ get_header(); ?>
 								if ( $categories_list && amnistia_categorized_blog() ) :
 							?>
 							<div class="meta_cat_bucle">
-								<?php printf( __( '%1$s', 'amnistia' ), $categories_list ); ?>
+								<?php printf( '%1$s', $categories_list ); ?>
 							</div>
 							<?php endif; // End if categories ?>
 						<?php endif; // End if 'post' == get_post_type() ?>

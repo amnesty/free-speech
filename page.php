@@ -33,7 +33,7 @@ get_header(); ?>
 										$categories_list = get_the_category_list( ' ' );
 									?>
 								<div class="meta_cat">
-									<?php printf( __( '%1$s', 'amnistia' ), $categories_list ); ?>
+									<?php printf( '%1$s', $categories_list ); ?>
 								</div>
 							</div>
 
@@ -95,7 +95,7 @@ get_header(); ?>
 						if ( $tags_list ) :
 						?>
 						<div class="meta_tag">
-						<?php printf( __( '%1$s', 'amnistia' ), $tags_list ); ?>
+						<?php printf( '%1$s', $tags_list ); ?>
 						</div>
 						<?php endif; // End if $tags_list ?>
 					</div>
