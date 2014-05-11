@@ -48,7 +48,7 @@ get_header(); ?>
 
 							<!-- AddThis Button BEGIN -->
 							<div class="iconos_sociales">
-							<p style="margin:0 0 5px 5px">Comparte y propaga esta noticia:</p>
+							<p style="margin:0 0 5px 5px"><?php _e( 'Share', 'amnistia' ); ?></p>
 							<div class="addthis_toolbox addthis_default_style">
 							<a class="addthis_button_facebook socials facebook"><img src="<?php bloginfo('template_directory'); ?>/img/blank.png"></a>
 							<a class="addthis_button_twitter socials twitter"><img src="<?php bloginfo('template_directory'); ?>/img/blank.png"></a>
