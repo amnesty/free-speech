@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Free Spech\n"
+"POT-Creation-Date: 2014-05-11 20:06+0100\n"
+"PO-Revision-Date: 2014-05-11 20:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: Amnesty International Spain <postm@es.amnesty.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/capo/bitnami/wordpress-free-speech/apps/"
+"wordpress/htdocs/wp-content/themes/free-speech\n"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:37
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:57
+msgid "Comment navigation"
+msgstr "Ver comentarios"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:38
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:39
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Nuevos comentarios &rarr;"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/comments.php:69
+msgid "Comments are closed."
+msgstr "Los comentarios han sido cerrados."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content.php:24
+msgid "Continue reading"
+msgstr "Seguir leyendo"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content.php:27
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-page.php:18
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-single.php:20
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content.php:42
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Categorías: %1$s"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content.php:52
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Etiquetas: %1$s"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content.php:58
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content.php:58
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content.php:58
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content.php:61
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-page.php:23
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-single.php:60
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:81
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:100
+msgid "Edit"
+msgstr "Editar"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/sidebar.php:51
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/functions.php:45
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/functions.php:65
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/functions.php:73
+msgid "tweets"
+msgstr "tweets"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/index.php:51
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/single.php:39
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/single.php:90
+msgid "Share"
+msgstr "Compartir"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-none.php:13
+msgid "Nothing Found"
+msgstr "No se encontraron resultados"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Quieres publicar tu primer post? <a href=\"%1$s\">Empieza por aquí</a>."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos pero nada coincide con tus términos de búsqueda. Por favor, "
+"inténtalo de nuevo con otras palabras."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no podemos encontrar lo que buscas. Quizá una búsqueda te ayude."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-single.php:37
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"Etiquetas: %2$s. Para agregar a favoritos, usa este <a href=\"%3$s\" rel="
+"\"bookmark\">permalink</a>."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-single.php:39
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Para agregar a favoritos, usa este <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-single.php:45
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Esta entrada fue guardada en las categorías: %1$s y etiquetada con: %2$s. "
+"Para agregar a favoritos, usa este <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/content-single.php:47
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"Esta entrada fue guardada en las categorías: %1$s. Para agregar a favoritos, "
+"usa este <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Artículos"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:27
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Artículos antiguos"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:31
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nuevos artículos <span class=\"meta-nav\">&rarr;</span>"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Artículos"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:81
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:91
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dice:</span>"
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:104
+msgid "Your comment is waiting for approval."
+msgstr "Tu comentario está esperando a ser aprobado."
+
+#: /home/capo/bitnami/wordpress-free-speech/apps/wordpress/htdocs/wp-content/themes/free-speech/inc/template-tags.php:145
+#, php-format
+msgid ""
+"<span class=\"posted-on\">%1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""
+"<span class=\"posted-on\">%1$s</span><span class=\"byline\"> por %2$s</span>"
