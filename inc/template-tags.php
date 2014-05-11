@@ -88,7 +88,7 @@ function amnistia_comment( $comment, $args, $depth ) {
 			<footer class="comment-meta">
 				<div class="comment-author vcard">
 					<?php if ( 0 != $args['avatar_size'] ) { echo get_avatar( $comment, $args['avatar_size'] ); } ?>
-					<?php printf( __( '%s <span class="says">dice:</span>', 'amnistia' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
+					<?php printf( __( '%s <span class="says">says:</span>', 'amnistia' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 				</div><!-- .comment-author -->
 
 				<div class="comment-metadata">
@@ -142,7 +142,7 @@ function amnistia_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
-	printf( __( '<span class="posted-on">%1$s</span><span class="byline"> por %2$s</span>', 'amnistia' ),
+	printf( __( '<span class="posted-on">%1$s</span><span class="byline"> by %2$s</span>', 'amnistia' ),
 		sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>',
 			esc_url( get_permalink() ),
 			$time_string
