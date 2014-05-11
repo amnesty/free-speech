@@ -30,7 +30,7 @@ get_header(); ?>
 								<?php amnistia_posted_on(); ?>
 									<?php
 										/* translators: used between list items, there is a space after the comma */
-										$categories_list = get_the_category_list( __( ' ', 'amnistia' ) );
+										$categories_list = get_the_category_list( ' ' );
 									?>
 								<div class="meta_cat">
 									<?php printf( __( '%1$s', 'amnistia' ), $categories_list ); ?>
@@ -91,7 +91,7 @@ get_header(); ?>
 					<div class="meta_bucle">
 						<?php
 						/* translators: used between list items, there is a space after the comma */
-						$tags_list = get_the_tag_list( '', __( ' ', 'amnistia' ) );
+						$tags_list = get_the_tag_list( '', ' ' );
 						if ( $tags_list ) :
 						?>
 						<div class="meta_tag">

@@ -48,7 +48,7 @@ get_header(); ?>
 						<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
 							<?php
 								/* translators: used between list items, there is a space after the comma */
-								$categories_list = get_the_category_list( __( ' ', 'amnistia' ) );
+								$categories_list = get_the_category_list( ' ' );
 								if ( $categories_list && amnistia_categorized_blog() ) :
 							?>
 							<div class="meta_cat_bucle">
