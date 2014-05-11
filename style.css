@@ -803,7 +803,7 @@ background: url(img/magnifier.png) center no-repeat;
   display: inline;
 }
 .search-form input[type="search"]{
-  width: 100px;
+  width: 250px;
   border-radius: 0;
   margin-right: 10px;
 }
