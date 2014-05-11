@@ -56,7 +56,7 @@ get_header(); ?>
 					<div class="foto_destacada">
 						<div class="comentarios">
 							<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
-							<span class="comments_link"><?php comments_popup_link( __( '0', 'amnistia' ), __( '1', 'amnistia' ), __( '%', 'amnistia' ) ); ?></span>
+							<span class="comments_link"><?php comments_popup_link( '0', '1', '%' ); ?></span>
 							<?php endif; ?>
 						</div>
 
