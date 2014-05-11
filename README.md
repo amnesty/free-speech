@@ -35,10 +35,10 @@ too, because of pricavy reasons:
 
 After installing Simple Local Avatars, you must:
 
-# Navigate to your WordPress Admin area
-# Go to Settings > Discussion
-# Check the Local Avatars Only option
-# Save
+1. Navigate to your WordPress Admin area
+2. Go to Settings > Discussion
+3. Check the Local Avatars Only option
+4. Save
 
 License
 -------
