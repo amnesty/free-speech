@@ -747,10 +747,10 @@ margin-bottom: 0.5em;
   font-size: 0.8em;
 }
 .single .comment-form input[type="text"] {
-  width: 62%;
+  width: 95%;
 }
 .single .comment-form textarea{
-  width: 62%;
+  width: 95%;
 }
 .single .comentarios_form h2{
   width: 80%;
