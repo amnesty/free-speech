@@ -30,9 +30,11 @@
 
             if( function_exists( 'get_field_object' ) ) {
                 $fields = get_field_object( 'logo_principal', 'options' );
-                if( array_key_exists( 'url', $fields['value'] ) ) {
-                    $logo_url = $fields['value']['url'];
-                    $logo_alt = $fields['value']['alt'];
+                if( is_array( $fields['value'] ) ) {
+                    if( array_key_exists( 'url', $fields['value'] ) ) {
+                        $logo_url = $fields['value']['url'];
+                        $logo_alt = $fields['value']['alt'];
+                    }
                 }
             }
         ?>

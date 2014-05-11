@@ -23,9 +23,11 @@
 
         if( function_exists( 'get_field_object' ) ) {
             $fields = get_field_object( 'logo', 'options' );
-            if( array_key_exists( 'url', $fields['value'] ) ) {
-                $sidebar_logo_url = $fields['value']['url'];
-                $sidebar_logo_alt = $fields['value']['alt'];
+            if( is_array( $fields['value'] ) ) {
+                if( array_key_exists( 'url', $fields['value'] ) ) {
+                    $sidebar_logo_url = $fields['value']['url'];
+                    $sidebar_logo_alt = $fields['value']['alt'];
+                }
             }
         }
     ?>
@@ -37,8 +39,10 @@
 
     if( function_exists( 'get_field_object' ) ) {
         $fields2 = get_field_object( 'logo_fondo_menu', 'options' );
-        if( array_key_exists( 'url', $fields2['value'] ) ) {
-            $sidebar_fondo_url = $fields['value']['url'];
+        if( is_array( $fields2['value'] ) ) {
+            if( array_key_exists( 'url', $fields2['value'] ) ) {
+                $sidebar_fondo_url = $fields['value']['url'];
+            }
         }
     }
 ?>
