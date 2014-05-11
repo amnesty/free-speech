@@ -26,10 +26,10 @@
 	<footer class="entry-meta">
 		<?php
 			/* translators: used between list items, there is a space after the comma */
-			$category_list = get_the_category_list( __( ', ', 'amnistia' ) );
+			$category_list = get_the_category_list( ', ' );
 
 			/* translators: used between list items, there is a space after the comma */
-			$tag_list = get_the_tag_list( '', __( ', ', 'amnistia' ) );
+			$tag_list = get_the_tag_list( '', ', ' );
 
 			if ( ! amnistia_categorized_blog() ) {
 				// This blog only has 1 category so we just need to worry about tags in the meta text
