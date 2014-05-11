@@ -24,6 +24,14 @@ Free-Speech works better if you use it with a few free wordpress plugins:
 
 * https://wordpress.org/plugins/advanced-custom-fields/
 
+Recommendations
+---------------
+
+Even if these other plugins are not required to work with Free-Spech, we strongly recommend you to install them
+too, because of pricavy reasons:
+
+* https://wordpress.org/plugins/disable-google-fonts/
+
 License
 -------
 
