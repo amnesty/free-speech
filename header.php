@@ -24,8 +24,19 @@
 <div class="row">
   <div class="large-4 columns">
     <div class="logo"><a href="<?php echo get_option('home'); ?>">
-    <?php $fields = get_field_object('logo_principal', 'options'); ?>
-    <img src="<?php echo $fields['value']['url']; ?>" alt="<?php echo $fields['value']['alt']; ?>" />
+        <?php
+            $logo_url = get_bloginfo( 'template_directory' ) . "/img/default_logo.png";
+            $logo_alt = get_bloginfo( 'name' );
+
+            if( function_exists( 'get_field_object' ) ) {
+                $fields = get_field_object( 'logo_principal', 'options' );
+                if( array_key_exists( 'url', $fields['value'] ) ) {
+                    $logo_url = $fields['value']['url'];
+                    $logo_alt = $fields['value']['alt'];
+                }
+            }
+        ?>
+        <img src="<?php echo $logo_url; ?>" alt="<?php echo $logo_alt; ?>" />
     </a></div>
   </div>
   <div class="large-8 columns"></div>
