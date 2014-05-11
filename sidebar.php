@@ -83,7 +83,7 @@
 <div class="row related">
     <div class="large-12 columns">
         <?php
-            if function_exists( 'related_posts' ) {
+            if ( function_exists( 'related_posts' ) ) {
                 related_posts();
             }
         ?>
