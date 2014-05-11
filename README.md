@@ -1,6 +1,8 @@
 Free-Speech WordPress Theme
 ===========================
 
+![Screenshot](https://github.com/amnesty/free-speech/blob/master/screenshot.png "Screenshot")
+
 What is it?
 -----------
 
