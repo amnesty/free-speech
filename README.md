@@ -31,6 +31,14 @@ Even if these other plugins are not required to work with Free-Spech, we strongl
 too, because of pricavy reasons:
 
 * https://wordpress.org/plugins/disable-google-fonts/
+* https://wordpress.org/plugins/simple-local-avatars/
+
+After installing Simple Local Avatars, you must:
+
+# Navigate to your WordPress Admin area
+# Go to Settings > Discussion
+# Check the Local Avatars Only option
+# Save
 
 License
 -------
