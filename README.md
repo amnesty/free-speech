@@ -1,14 +1,17 @@
 Free-Speech WordPress Theme
 ===========================
 
-![Screenshot](https://raw.githubusercontent.com/amnesty/free-speech/master/screenshot.png "Screenshot")
-
 What is it?
 -----------
 
 Free-Speech is a WordPress theme designed for and by Amnesty International Spain for it's Schools Network.
 
 It's based on Underscores (https://github.com/automattic/_s) and was originally designed by @josebonito.
+
+Screenshot
+----------
+
+![Screenshot](https://raw.githubusercontent.com/amnesty/free-speech/master/screenshot.png "Screenshot")
 
 How to install?
 ---------------
