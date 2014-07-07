@@ -33,7 +33,7 @@ Recommendations
 ---------------
 
 Even if these other plugins are not required to work with Free-Spech, we strongly recommend you to install them
-too, because of pricavy reasons:
+too, because of privacy reasons:
 
 * https://wordpress.org/plugins/disable-google-fonts/
 * https://wordpress.org/plugins/simple-local-avatars/
