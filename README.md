@@ -6,7 +6,8 @@ What is it?
 
 Free-Speech is a WordPress theme designed for and by Amnesty International Spain for it's Schools Network.
 
-It's based on Underscores (https://github.com/automattic/_s) and was originally designed by @josebonito.
+It's based on Underscores (https://github.com/automattic/_s) and was originally designed by @josebonito and updated by
+@JesusAmieiro.
 
 Screenshot
 ----------
@@ -49,7 +50,7 @@ License
 -------
 
 Free-Speech is a WordPress theme designed for and by Amnesty International Spain for it's schools network's blog.
-Copyright (C) 2013 Amnesty International (originally developed by Pepe Pro http://www.pepe.pro).
+Copyright (C) 2015 Amnesty International (originally developed by Pepe Pro http://www.pepe.pro) and updated by Jesús Amieiro.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
 License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any

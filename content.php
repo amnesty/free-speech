@@ -21,7 +21,7 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php the_content( __( 'Continue reading', 'amnistia' ) . ' <span class="meta-nav">&rarr;</span>' ); ?>
+		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'amnistia' ) ); ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'amnistia' ),
@@ -35,7 +35,7 @@
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */
-				$categories_list = get_the_category_list( ', ' );
+				$categories_list = get_the_category_list( __( ', ', 'amnistia' ) );
 				if ( $categories_list && amnistia_categorized_blog() ) :
 			?>
 			<span class="cat-links">
@@ -45,7 +45,7 @@
 
 			<?php
 				/* translators: used between list items, there is a space after the comma */
-				$tags_list = get_the_tag_list( '', ', ' );
+				$tags_list = get_the_tag_list( '', __( ', ', 'amnistia' ) );
 				if ( $tags_list ) :
 			?>
 			<span class="tags-links">
