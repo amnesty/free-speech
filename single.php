@@ -27,16 +27,16 @@ get_header(); ?>
 								<?php amnistia_posted_on(); ?>
 								<?php
 								/* translators: used between list items, there is a space after the comma */
-								$categories_list = get_the_category_list( ' ' );
+								$categories_list = get_the_category_list( __( ' ', 'amnistia' ) );
 								?>
 								<div class="meta_cat">
-								<?php printf( '%1$s', $categories_list ); ?>
+								<?php printf( __( '%1$s', 'amnistia' ), $categories_list ); ?>
 								</div>
 							</div>
 
 							<!-- AddThis Button BEGIN -->
 							<div class="iconos_sociales">
-							<p style="margin:0 0 5px 5px"><?php _e( 'Share', 'amnistia' ); ?></p>
+							<p style="margin:0 0 5px 5px">Comparte y propaga esta noticia:</p>
 							<div class="addthis_toolbox addthis_default_style">
 							<a class="addthis_button_facebook socials facebook"><img src="<?php bloginfo('template_directory'); ?>/img/blank.png"></a>
 							<a class="addthis_button_twitter socials twitter"><img src="<?php bloginfo('template_directory'); ?>/img/blank.png"></a>
@@ -56,7 +56,7 @@ get_header(); ?>
 					<div class="foto_destacada">
 						<div class="comentarios">
 							<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
-							<span class="comments_link"><?php comments_popup_link( '0', '1', '%' ); ?></span>
+							<span class="comments_link"><?php comments_popup_link( __( '0', 'amnistia' ), __( '1', 'amnistia' ), __( '%', 'amnistia' ) ); ?></span>
 							<?php endif; ?>
 						</div>
 
@@ -78,16 +78,16 @@ get_header(); ?>
 							<?php amnistia_posted_on(); ?>
 							<?php
 							/* translators: used between list items, there is a space after the comma */
-							$categories_list = get_the_category_list( ' ' );
+							$categories_list = get_the_category_list( __( ' ', 'amnistia' ) );
 							?>
 							<div class="meta_cat">
-								<?php printf( '%1$s', $categories_list ); ?>
+								<?php printf( __( '%1$s', 'amnistia' ), $categories_list ); ?>
 							</div>
 						</div>
 
 						<!-- AddThis Button BEGIN -->
 						<div class="iconos_sociales">
-						<p style="margin:0 0 5px 5px"><?php _e( 'Share', 'amnistia' ); ?></p>
+						<p style="margin:0 0 5px 5px">Comparte y propaga esta noticia:</p>
 						<div class="addthis_toolbox addthis_default_style" style="float:left!important">
 						<a class="addthis_button_facebook socials facebook"><img src="<?php bloginfo('template_directory'); ?>/img/blank.png"></a>
 						<a class="addthis_button_twitter socials twitter"><img src="<?php bloginfo('template_directory'); ?>/img/blank.png"></a>
@@ -121,11 +121,11 @@ get_header(); ?>
 					<div class="meta_bucle">
 						<?php
 						/* translators: used between list items, there is a space after the comma */
-						$tags_list = get_the_tag_list( '', ' ' );
+						$tags_list = get_the_tag_list( '', __( ' ', 'amnistia' ) );
 						if ( $tags_list ) :
 						?>
 						<div class="meta_tag">
-						<?php printf( '%1$s', $tags_list ); ?>
+						<?php printf( __( '%1$s', 'amnistia' ), $tags_list ); ?>
 						</div>
 						<?php endif; // End if $tags_list ?>
 					</div>

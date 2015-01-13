@@ -1,10 +1,10 @@
 /*
-Theme Name: free-spech
+Theme Name: free-speech
 Theme URI: http://underscores.me/
 Author: Pepe.pro
-Author URI: http://www.pepe.pro
-Description: Tema personalizado para amnistia
-Version: 1.0
+Author URI: https://blogs.es.amnesty.org/
+Description: Tema personalizado para Amnistía Internacional España
+Version: 1.1
 License: GNU General Public License v3
 License URI: LICENSE
 Text Domain: amnistia
@@ -14,7 +14,7 @@ Tags:
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Free-Spech is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+ free-speech is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -747,10 +747,10 @@ margin-bottom: 0.5em;
   font-size: 0.8em;
 }
 .single .comment-form input[type="text"] {
-  width: 95%;
+  width: 62%;
 }
 .single .comment-form textarea{
-  width: 95%;
+  width: 62%;
 }
 .single .comentarios_form h2{
   width: 80%;
@@ -803,7 +803,7 @@ background: url(img/magnifier.png) center no-repeat;
   display: inline;
 }
 .search-form input[type="search"]{
-  width: 250px;
+  width: 100px;
   border-radius: 0;
   margin-right: 10px;
 }
@@ -1074,4 +1074,47 @@ object {
     width: 100%;
   }
 
+}
+
+/*article#post-50 .meta_ultima_noticia{display:none;}*/
+article#post-50 .row{overflow:hidden;}
+article#post-50 .foto_destacada .titulo{bottom:0 !important;}
+
+.nlposts-wrapper li{width:46%;float:left !important;margin:0 10px;overflow:hidden;}
+.nlposts-wrapper li:first-child{width:100%;float:none;margin:0;height:auto !important;}
+.nlposts-wrapper li:nth-child(even){clear:left;}
+
+
+article#post-50 .nlposts-container img{float:left;width:100%;height:auto;max-width:100%;padding:0;border:0;border-radius:0;box-shadow:none;}
+article#post-50 .nlposts-container h3{padding:0.6em 0.4em;font-size: 2em;text-transform: uppercase;letter-spacing: -1px;background:#ffff00}
+
+.nlposts-ulist-container .nlposts-ulist-thumbnail-litem a:hover{box-shadow:none !important;}
+
+.contenido table.em-calendar thead{background:#FFFF00;}
+.contenido table.em-calendar thead td{vertical-align:middle;text-align:center;font-weight:bold;text-transform:uppercase;}
+#post-100 .extracto,#post-102 .extracto{visibility:hidden;}
+article.type-event .extracto{display:none;}
+article.type-event a.fancybox{float:none;}
+
+.contenido .eventful ul{list-style:none;margin:0;padding:0;}
+.contenido .eventful li{list-style:none;padding:3px;background:#ffffd8;border:1px solid #ff0;border-radius:3px;margin-bottom:2px;}
+.contenido .eventful li a{color:#000 !important;background:transparent;}
+.contenido .eventful a{color:#000 !important;}
+.contenido .css-events-list table {border:1px solid #999;border-collapse:collapse;}
+.contenido .css-events-list table thead{background:#ff0;font-weight:bold;}
+.contenido .css-events-list td,.contenido .css-events-list th{border-bottom:1px solid #999;}
+.foto_destacada{min-height: 50px;}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px){
+.nlposts-wrapper li{width:44%;float:left !important;margin:0 10px;overflow:hidden;}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+	.nlposts-wrapper li{width:100%;float:none;margin:0;height:auto;}
+	.nlposts-wrapper li{width:44%;float:left !important;margin:0 10px;overflow:hidden;}
+}
+
+@media screen and (max-width: 1024px) {
+.nlposts-wrapper li{width:100%;float:none;margin:0;height:auto;}
+.nlposts-wrapper li:first-child{width:100%;float:none;margin:0;height:auto !important;}
 }
